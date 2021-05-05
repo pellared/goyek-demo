@@ -16,4 +16,4 @@ jobs:
         with:
           go-version: '1.16'
       - name: Build
-        run: go run ./build -v all
+        run: go run ./build -v all -msg "Hello from Golang for London"

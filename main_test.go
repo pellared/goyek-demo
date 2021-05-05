@@ -1,7 +1,8 @@
 package main_test
 
-import "testing"
+import (
+	"testing"
+)
 
 func Test(t *testing.T) {
-	t.Error("Failing")
 }
